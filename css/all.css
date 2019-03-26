@@ -1,0 +1,37 @@
+*
+{
+	margin:0px;
+	padding: 0px;
+}
+body
+{
+	background-color: #f5f6fa;
+}
+
+.fullContainer
+{
+	width: 100%;
+	padding: 0px 15px;
+}
+
+.margintop50
+{
+	margin-top: 50px;
+}
+
+.margintop30
+{
+	margin-top: 30px;
+}
+
+.marginbottom30
+{
+	margin-bottom: 30px;
+}
+
+.colBorder .col
+{
+	padding:5px;
+	margin: 3px;
+	background-color: #353b4822;
+}

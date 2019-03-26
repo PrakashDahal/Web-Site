@@ -1,0 +1,127 @@
+
+
+
+.slider1, .slider2, .slider3 
+{
+  display: table;
+  background: linear-gradient(rgba(39, 60, 117, 0.5), rgba(39, 60, 117, 0.5)), url('../images/koreanLan.jpg');
+  background-position: center top;
+  width: 100%;   /*Image Height*/
+  height: 350px;
+  background-size: 1300px 680px;
+  color: white;
+  background-repeat:no-repeat;
+}
+
+.slider2
+{
+	background: linear-gradient(rgba(39, 60, 117, 0.3), rgba(39, 60, 117, 0.3)), url('../images/jewls.jpg');
+	background-repeat:no-repeat;
+	background-position: center top;
+	height: 350px;
+	width: 100%;
+	background-size: 1300px 690px;
+}
+
+.slider3
+{
+	background: linear-gradient(rgba(39, 60, 117, 0.3), rgba(39, 60, 117, 0.3)), url('../images/handshake.jpg');
+	background-repeat:no-repeat;
+	background-position: center top;
+	height: 350px;
+	width: 100%;
+	background-size: 1300px 680px;
+}
+
+
+.carousel-indicators .active
+{
+	background-color: #fff;
+}
+
+.carousel-indicators li
+{
+	border: 1px solid #fff;
+}
+
+.carousel-caption
+{
+	bottom: 35px;
+	background-color: #273c7509;
+}
+
+.carousel-caption h1
+{
+	color: #fbc531;
+	/*color: #e1b12c;*/
+	font-size: 50px;
+	text-shadow: 3px 3px 2px #273c75;
+}
+.carousel-caption p
+{
+	color: #fff;
+	font-size: 25px;
+	font-weight: bold;
+}
+
+.glyphicon-arrow-left
+{
+	bottom: 50px;
+}
+
+.carousel-control.left:hover,
+.carousel-control.right:hover
+{
+	content: "\e091"
+}
+
+/*Slider CSS End*/
+
+
+.discountOffer
+{
+	/*margin-top: 30px;*/
+	padding: 15px;
+	border-radius: 5px;
+	/*color: #fbc531;*/
+	background-color: #273c7533;
+}
+
+
+.discountOffer h1
+{
+	color: #fbc531;
+}
+
+.colMargin .col
+{
+	text-align: center;
+	margin-left: 30px;
+	/*border: 1px dotted #273c75;*/
+}
+
+.colMargin .col h2
+{
+	color: #273c75;
+}
+
+.colMargin .col ul {
+  list-style: none;
+  margin-top: 30px;
+}
+
+.colMargin .col ul li:before {
+  content: '✓';
+}
+.colMargin .col ul li
+{
+	margin-top: 20px;
+	/*margin-left: 20px;*/
+	/*text-align: justify;*/
+}
+
+.colMargin .col .col-xs-12
+{
+	margin-right: 0px;
+	margin-left: 0px;
+}

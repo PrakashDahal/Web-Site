@@ -1,0 +1,68 @@
+.footerBackground
+{
+  display: table;
+  background: linear-gradient(rgba(39, 60, 117, 0.9), rgba(39, 60, 117, 0.9)), url('../images/textBehind.jpg');
+  background-position: center top;
+  width: 100%;   /*Image Height*/
+  height: 100%;
+  background-size: 100% 100%;
+  color: white;
+  background-repeat:no-repeat;
+  margin-bottom: 0px;
+}
+
+.copyRight
+{
+	text-align: center;
+	background-color: #273c75f5;
+	height: 50px;
+	color: #fff;
+	padding-top: 10px;
+	margin-top: 0px;
+
+}
+
+.footerBackground .row .col h3
+{
+	/*text-align: center;*/
+	padding-top: 30px;
+}
+
+.mapBackground
+{
+	background: url('../images/map.JPG');
+	height: 250px;
+	width: 300px;
+	border: 2px solid white;
+	border-radius: 4px;
+	padding-top: 30px;
+	margin: 5px;
+}
+
+
+.footerBackground .row .col h5
+{
+	margin-top: 30px;
+}
+
+.footerBackground .row .col p i
+{
+	margin-left: 30px;
+	font-size:35px;
+	color:#fbc531;
+}
+.footerBackground .row .col p i:hover
+{
+	color: #fff;
+}
+
+.footerBackground .row .col ul li
+{
+	list-style: none;
+}
+
+.footerBackground .row .col ul li a
+{
+	color: #fff;
+	text-decoration: none;
+}
