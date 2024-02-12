@@ -19,7 +19,7 @@
 
 .contactImage
 {
-	background: linear-gradient(rgba(39, 60, 117, 0.1), rgba(39, 60, 117, 0.1)), url('../images/contactUs.jpg');
+	background: linear-gradient(rgba(39, 60, 117, 0.1), rgba(39, 60, 117, 0.1)), url('./images/contactUs.jpg');
 	background-repeat:no-repeat;
 	background-position: center bottom;
 	height: 350px;

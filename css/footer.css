@@ -1,7 +1,7 @@
 .footerBackground
 {
   display: table;
-  background: linear-gradient(rgba(39, 60, 117, 0.9), rgba(39, 60, 117, 0.9)), url('../images/textBehind.jpg');
+  background: linear-gradient(rgba(39, 60, 117, 0.9), rgba(39, 60, 117, 0.9)), url('./images/textBehind.jpg');
   background-position: center top;
   width: 100%;   /*Image Height*/
   height: 100%;
@@ -30,7 +30,7 @@
 
 .mapBackground
 {
-	background: url('../images/map.JPG');
+	background: url('./images/map.JPG');
 	height: 250px;
 	width: 300px;
 	border: 2px solid white;

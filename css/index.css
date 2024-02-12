@@ -4,7 +4,7 @@
 .slider1, .slider2, .slider3 
 {
   display: table;
-  background: linear-gradient(rgba(39, 60, 117, 0.5), rgba(39, 60, 117, 0.5)), url('../images/koreanLan.jpg');
+  background: linear-gradient(rgba(39, 60, 117, 0.5), rgba(39, 60, 117, 0.5)), url('./images/koreanLan.jpg');
   background-position: center top;
   width: 100%;   /*Image Height*/
   height: 350px;
@@ -15,7 +15,7 @@
 
 .slider2
 {
-	background: linear-gradient(rgba(39, 60, 117, 0.3), rgba(39, 60, 117, 0.3)), url('../images/jewls.jpg');
+	background: linear-gradient(rgba(39, 60, 117, 0.3), rgba(39, 60, 117, 0.3)), url('./images/jewls.jpg');
 	background-repeat:no-repeat;
 	background-position: center top;
 	height: 350px;
@@ -25,7 +25,7 @@
 
 .slider3
 {
-	background: linear-gradient(rgba(39, 60, 117, 0.3), rgba(39, 60, 117, 0.3)), url('../images/handshake.jpg');
+	background: linear-gradient(rgba(39, 60, 117, 0.3), rgba(39, 60, 117, 0.3)), url('./images/handshake.jpg');
 	background-repeat:no-repeat;
 	background-position: center top;
 	height: 350px;
