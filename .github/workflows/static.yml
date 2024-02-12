@@ -41,3 +41,8 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+        run: |
+          mkdir -p docs  # GitHub Pages uses the 'docs' folder by default
+          cp -r html/* docs/
+          cp -r css/* docs/
+          cp -r images/* docs/
