@@ -1,0 +1,75 @@
+.container-fluid img
+{
+	margin: 5px;
+}
+
+.culture
+{
+	display: table;
+  background: linear-gradient(rgba(39, 60, 117, 0.5), rgba(39, 60, 117, 0.5)), url('../images/culture.jpg');
+  /*background-position: center top;*/
+  width: 100%; 
+  height: 100px;
+  background-size: 1300px 680px;
+  color: white;
+  /*background-repeat:no-repeat;*/
+
+  	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*margin-top: 50px;*/
+    /*margin-bottom: 5px;*/
+}
+
+.cityTemple
+{
+	display: table;
+  background: linear-gradient(rgba(39, 60, 117, 0.5), rgba(39, 60, 117, 0.5)), url('../images/cityTower.jpg');
+  /*background-position: center top;*/
+  width: 100%; 
+  height: 100px;
+  background-size: 1300px 680px;
+  color: white;
+  /*background-repeat:no-repeat;*/
+
+  	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*margin-top: 50px;*/
+    /*margin-bottom: 5px;*/
+}
+
+.others
+{
+	display: table;
+  background: linear-gradient(rgba(39, 60, 117, 0.5), rgba(39, 60, 117, 0.5)), url('../images/children.jpg');
+  /*background-position: center top;*/
+  width: 100%; 
+  height: 100px;
+  background-size: 1300px 680px;
+  color: white;
+  /*background-repeat:no-repeat;*/
+
+  	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    /*margin-top: 50px;*/
+    /*margin-bottom: 5px;*/
+}
+
+
+.culture h2,
+.cityTemple h2,
+.others h2
+{
+	padding-top: 10px;
+}
+
+img:hover
+{
+ cursor: pointer;
+ filter: brightness(70%);
+}

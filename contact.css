@@ -1,0 +1,38 @@
+.container .row .col p,
+.container .row h2
+{
+	color: #fff;
+}
+
+.container .row h2
+{
+	margin:40px 0px;
+	/*padding:0px 30;*/
+}
+.container .row .col p
+{
+	font-size: 20px;
+}
+
+	
+
+
+.contactImage
+{
+	background: linear-gradient(rgba(39, 60, 117, 0.1), rgba(39, 60, 117, 0.1)), url('../images/contactUs.jpg');
+	background-repeat:no-repeat;
+	background-position: center bottom;
+	height: 350px;
+	width: 100%;
+	/*background-size: 1300px 690px;*/
+
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.orangeText
+{
+	color: #fbc531;
+}

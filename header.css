@@ -1,0 +1,78 @@
+body {
+      position: relative; 
+  }
+
+
+.fullContainer .topWelcome
+{
+	padding: 10px 30px;
+}
+
+ .fullContainer .topWelcome h2
+{
+	color: #273c75;
+}
+
+ .fullContainer .topWelcome h5
+{
+	font-style: italic;
+	/*color: #fbc531;*/
+	padding-left: 10px;
+}
+
+.fullContainer .topWelcome h5 a
+{
+	margin-left: 20px;
+}
+
+.fullContainer .topWelcome h5 a:hover
+{
+	text-decoration: unset;
+}
+
+
+  .affix {
+      top:0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+  .navbar {
+  	  border:0px;
+  	  border-radius: 0px;
+  	  margin-bottom: 0px;
+      /*border-bottom: 5px solid #e1b12c;*/
+  }
+
+  .affix ~ .container-fluid {
+     position: relative;
+     top: 50px;
+  }
+
+  .navbar-inverse
+  {
+  	background-color: #273c75f5;
+  }
+
+  .navbar-inverse .navbar-nav>li>a,
+  .navbar .navbar-header a
+  {
+  	color: #f6f8ff;
+  	font-size: 1.1em;
+  	border-left: 1px solid #fff;
+  }
+
+  .navbar-inverse .navbar-nav>li>a:focus,
+  .selected,
+  .navbar-inverse .navbar-nav>li>a:hover
+  {
+  	background-color: #233c82;
+  	font-size: 1.13em;
+  	/*border: 2px solid #273c75;*/
+  }
+
+  .navbar .navbar-header a
+  {
+  	border: none;
+  	font-size: 1.5em;
+  }
+

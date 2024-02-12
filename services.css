@@ -1,0 +1,26 @@
+.container .panel-body img
+	{
+		width: 20%;
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+
+.container .panel-body p
+{
+	font-size: 17px;
+}
+
+.container .panel-heading h2
+{
+	color: #273c75;
+}
+
+.container .panel-heading
+{
+	background-color: #fbc53155;
+}
+
+/*.container .panel-body
+{
+	background-color: #273c7511;
+}*/
